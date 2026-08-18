@@ -131,24 +131,23 @@ The experiment demonstrated that the complete pipeline could process every frame
 uav-object-detection-navigation/
 │
 ├── method_1_orb_slam3/
-│   ├── ORB_SLAM3/
-│   ├── Drone_Navigation/
-│   ├── fusion/
-│   ├── navigation/
-│   ├── configs/
-│   └── main.py
+│   └── README.md
 │
 ├── method_2_depth_yolo/
-│   ├── Depth-Anything-V2/
-│   ├── depth_estimation/
-│   ├── navigation_test/
+│   ├── depth_anything_v2/
+│   │   ├── dinov2_layers/
+│   │   ├── util/
+│   │   ├── dinov2.py
+│   │   └── dpt.py
+│   │
 │   ├── scripts/
-│   ├── configs/
-│   └── test_coco.py
+│   │   └── depth_navigation_updated.py
+│   │
+│   ├── README.md
+│   └── requirements.txt
 │
-├── requirements.txt
-├── README.md
-└── .gitignore
+├── .gitignore
+└── README.md
 ```
 
 Large model weights, videos, test datasets, generated outputs, and virtual environments are intentionally excluded from the repository.
